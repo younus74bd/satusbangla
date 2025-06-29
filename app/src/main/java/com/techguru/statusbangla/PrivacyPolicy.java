@@ -202,7 +202,7 @@ public class PrivacyPolicy extends AppCompatActivity {
             webView.setWebViewClient(new HelloWebViewClient());
             webView.getSettings().setJavaScriptEnabled(true);
 
-            webView.loadUrl("https://sites.google.com/view/mimr-valentines-privacy-policy");
+            webView.loadUrl("https://sites.google.com/view/banglastatus74");
 
         }
 
