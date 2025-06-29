@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catCardView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+    <RelativeLayout
+        android:id="@+id/rrCat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DB014F"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:id="@+id/imgCat"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/love"
+            android:layout_gravity="center"
+            android:padding="10dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textCat"
+            android:layout_below="@id/imgCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="12sp"
+            />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
