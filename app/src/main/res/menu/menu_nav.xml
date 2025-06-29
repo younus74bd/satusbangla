@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:id="@+id/group1" >
+
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/star"
+            android:title="Rate Us"
+            app:showAsAction="ifRoom"
+
+            />
+
+        <item
+            android:id="@+id/moreapp"
+            android:icon="@drawable/va_more_app"
+            android:title="More App"
+            app:showAsAction="ifRoom"
+
+            />
+</group>
+
+        <group android:id="@+id/group2">
+
+                <item
+                    android:id="@+id/privacy"
+                    android:icon="@drawable/privacy"
+                    android:title="Privacy Policy"
+                    app:showAsAction="ifRoom"
+
+                    />
+
+                <item
+                    android:id="@+id/feedback"
+                    android:icon="@drawable/maillove"
+                    android:title="Feedback &amp; Suggestion"
+                    app:showAsAction="ifRoom"
+
+                    />
+        </group>
+
+</menu>
