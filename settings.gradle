@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Status Bangla"
+rootProject.name = "Bangla Status"
 include ':app'

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ItemList"
-    android:background="#D3DB014F"
+    android:background="#D3E2E2E2"
     android:theme="@style/Theme.AppCompat.Light"
 
     >

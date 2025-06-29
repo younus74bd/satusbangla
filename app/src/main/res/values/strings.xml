@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Status Bangla</string>
+    <string name="app_name">Bangla Status</string>
 
     <string name="drawer_open">Open Drawer</string>
     <string name="drawer_close">Close Drawer</string>
-    <string name="appVersion">App Version - 1.0.2</string>
+    <string name="appVersion">App Version - 1.0.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
