@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (item.getItemId()==R.id.feedback) {
                     if (network()){
                         drawer.closeDrawer(GravityCompat.START);
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:jtltd@gmail.com")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:jtltd.official@gmail.com")));
 
 
                     } else {
